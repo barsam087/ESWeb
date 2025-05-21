@@ -53,3 +53,7 @@ Route::get('/feed/feed.xml', function () {
         'Content-Type' => 'application/xml'
     ]);
 });
+
+Route::get('/discord', function () {
+    return redirect('https://discord.gg/RnhuqbBFyv');
+});
