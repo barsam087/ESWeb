@@ -145,6 +145,8 @@
     </div>
     
     <div class="space-y-4">
+
+    <a href="/installer.exe">
       <!-- Windows Download -->
       <div class="flex items-center p-4 rounded-lg bg-gray-700 hover:bg-gray-600 transition-colors">
         <div class="mr-4 text-blue-400">
@@ -160,7 +162,11 @@
           Download
         </button>
       </div>
+    </a>
 
+
+
+    <a href="/protable.rar">
     <div class="flex items-center p-4 rounded-lg bg-gray-700 hover:bg-gray-600 transition-colors">
         <div class="mr-4 text-blue-400">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -180,9 +186,9 @@
       
 
     </div>
-    
+    </a>
     <div class="mt-6 text-center text-sm text-gray-500">
-      <p>Version 1.0.0 | ~100 MB</p>
+      <p>Version 1.0.0 | ~15 MB</p>
     </div>
   </div>
 </div>
