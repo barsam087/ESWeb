@@ -55,5 +55,5 @@ Route::get('/feed/feed.xml', function () {
 });
 
 Route::get('/discord', function () {
-    return redirect('https://discord.gg/RnhuqbBFyv');
+    return redirect('https://discord.gg/MNXGnmnZaZ');
 });

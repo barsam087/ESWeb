@@ -157,7 +157,7 @@
             </div>
             
             <!-- Interactive 3D card element -->
-            <img src="./screenshots/CustomizeDark.png" alt="">
+            <img src="./imgs/eslauncher1.png" alt="">
         </div>
         </main>
 
@@ -198,7 +198,7 @@
             </div>
             
             <!-- Interactive 3D card element -->
-            <img src="./screenshots/ModpackInstallDark.png" alt="">
+            <img src="./imgs/modpacks1.png" alt="">
         </div>
     </main>
 
@@ -266,7 +266,7 @@
             </div>
             
             <!-- Interactive 3D card element -->
-            <img src="./screenshots/CustomizeDark.png" alt="">
+            <img src="./imgs/optimize.jpg" alt="">
         </div>
     </main>
 

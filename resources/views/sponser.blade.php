@@ -159,7 +159,7 @@
             </div>
             
             <!-- Interactive 3D card element -->
-            <img src="./screenshots/CustomizeDark.png" alt="">
+            <img src="./imgs/eslauncher1.png" alt="">
         </div>
         </main>
 

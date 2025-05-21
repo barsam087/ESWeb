@@ -44,10 +44,16 @@
             </button>
             </a>
 
-            <button class="px-5 py-2 rounded-xl neu hover:neu-inset transition-all duration-300 text-sm font-medium group relative overflow-hidden" onclick="location.href='https://discord.gg/RnhuqbBFyv'"  type="button">
+            <a href="/discord">
+            
+            <button class="px-5 py-2 rounded-xl neu hover:neu-inset transition-all duration-300 text-sm font-medium group relative overflow-hidden" >
                 <span class="relative z-10">discord</span>
                 <span class="absolute inset-0 bg-gradient-to-r from-neon-pink/20 to-neon-cyan/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
             </button>
+            
+            </a>
+
+
         </div>
         
         <a href="/downloads">
