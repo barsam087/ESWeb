@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Prism Launcher</title>
+	<subtitle>An Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.</subtitle>
+	
+	<link href="https://eighty-seven.ir/feed/feed.xml" rel="self"/>
+	<link href="https://eighty-seven.ir/"/>
+	<updated>2025-04-07T00:00:00Z</updated>
+	<id>https://eighty-seven.ir/</id>
+	<author>
+		<name>Prism Launcher</name>
+		<email>contact@eighty-seven.ir</email>
+	</author>
+	
+	<entry>
+		<title>Prism Launcher Release 9.4, now available</title>
+		<link href="https://eighty-seven.ir/news/"/>
+		<updated>2025-04-07T00:00:00Z</updated>
+		<id>https://eighty-seven.ir/news/</id>
+		<content>
+			<title>انتشار نسخه اول</title>
+			<subtitle>
+				<span style="background-clip: text; color: transparent; background-image: linear-gradient(to right, #00ffff, #ff00ff, #ff00cc); animation: text-gradient 2s ease infinite;">ESlauncher</span>
+			</subtitle>
+			<paragraph>
+				تیم ما با افتخار و هیجان فراوان اولین نسخه از نرمافزار خود را منتشر میکند! این لحظه، نتیجه ماهها تلاش، خلاقیت و تعهد بیوقفه ماست و امروز، با غرور آن را با شما به اشتراک میگذاریم.
+			</paragraph>
+			<paragraph>
+				از همان روزهای اولیه طراحی تا خط به خط کدنویسی، همواره یک هدف مشترک داشتیم: خلق محصولی کاربردی و نوآورانه که تجربهای بینظیر را برای شما به ارمغان بیاورد. حالا که به این مرحله مهم رسیدهایم، هیجانمان برای شنیدن نظرات و بازخوردهای شما بیش از هر زمان دیگری است.
+			</paragraph>
+			<paragraph>
+				این تنها آغاز راه است و ما با اشتیاق فراوان به ادامه توسعه و بهبود نرمافزارمان متعهد هستیم. از شما سپاسگزاریم که در این سفر همراه ما بودهاید و امیدواریم این نسخه اولیه، همانطور که برای ما خاص و ارزشمند است، برای شما نیز مفید و الهامبخش باشد.
+			</paragraph>
+		</content>
+	</entry>
+	
+</feed>

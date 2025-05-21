@@ -37,3 +37,19 @@ Route::get('/privacypolicy', function () {
 Route::get('/sponser', function () {
     return view('sponser');
 });
+
+Route::get('/successful-login', function () {
+    return view('successfullogin');
+});
+
+Route::get('/feed/feed.xml', function () {
+    $filePath = public_path('feed.xml');
+    
+    if (!file_exists($filePath)) {
+        abort(404);
+    }
+
+    return response()->file($filePath, [
+        'Content-Type' => 'application/xml'
+    ]);
+});

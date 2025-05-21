@@ -134,60 +134,29 @@
 <body class="min-h-screen bg-dark-950 text-gray-100 font-sans overflow-x-hidden">
     @include('layouts.nav')
 
-<div class="flex items-center justify-center min-h-screen bg-dark-950 p-4" dir="rtl">
-  <div class="w-full max-w-4xl p-8 rounded-lg shadow-xl bg-gray-800">
-    <div class="flex flex-col md:flex-row gap-8">
-      <!-- Team Photos (Left Side) -->
-      <div class="flex flex-col items-center md:items-start space-y-6">
-        <!-- Profile 1 -->
-        <div class="text-center">
-          <div class="w-32 h-32 rounded-full bg-gray-700 overflow-hidden mb-3 mx-auto">
-            <img src="./es.webp" alt="Team Member" class="w-full h-full object-cover">
-          </div>
-          <h3 class="font-medium text-white">87</h3>
-          <p class="text-sm text-blue-400">website & launcher</p>
-        </div>
-        
-        <!-- Profile 2 -->
-        <div class="text-center">
-          <div class="w-32 h-32 rounded-full bg-gray-700 overflow-hidden mb-3 mx-auto">
-            <img src="./az.jpeg" alt="Team Member" class="w-full h-full object-cover">
-          </div>
-          <h3 class="font-medium text-white">AZreal</h3>
-          <p class="text-sm text-purple-400">content</p>
-        </div>
-        
-        <!-- Profile 3 -->
-        <div class="text-center">
-          <div class="w-32 h-32 rounded-full bg-gray-700 overflow-hidden mb-3 mx-auto">
-            <img src="./turk.png" alt="Team Member" class="w-full h-full object-cover">
-          </div>
-          <h3 class="font-medium text-white">3amyar</h3>
-          <p class="text-sm text-green-400">logo designer</p>
-        </div>
-      </div>
-      
-      <!-- About Text (Right Side) -->
-      <div class="flex-1">
-        <h1 class="text-3xl font-bold text-white mb-6">تیم  ما</h1>
-        
-        <div class="space-y-5 text-gray-300">
-          <p>
-اگر تو هم مثل ما عاشق ماینکرافتی و از لانچر های کند و دردسر ساز خسته شدی،خوش اومدی به خانواده ی ESlauncher تیم ما بر این باوره هر بازیکن سزاوار تجربه‌ای روان،غنی و بی‌دغدغه است! و همین باور،انگیزه ما برای خلق این لانچر بوده است.امیدوارم بتونیم باهم روز های خوبی رو سپری کنیم و خاطره های زیادی بسازیم.
-          </p>
-          
-          <p>
-ما ی تیم سه نفره ایم که تمام تلاشمون رو برای راحت تر شدن کار شما انجام دادیم.تا شما بتونید به راحتی به بازی بپردازید و لحظات شیرینی رو با دوستانتون ثبت کنین بدون اینکه لازم باشه از لانچر هایی مخربی استفاده کنید که بجز دردسر چیزی براتون ندارن. 
-ما کوچیکیم،اما کلی ایده‌های بزرگ تو سرمون داریم!
-          </p>
-          
-
-        </div>
-        
-
-      </div>
+<div class="w-full max-w-md mx-auto bg-dark-800 rounded-xl shadow-2xl overflow-hidden p-8 text-center">
+    <!-- Checkmark icon -->
+    <div class="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-green-500 mb-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        </svg>
     </div>
-  </div>
+    
+    <h1 class="text-2xl font-bold mb-2">Successful Login</h1>
+    
+    <p class="text-gray-300 mb-6">
+        You have successfully logged in to ESLauncher using your Microsoft account!
+    </p>
+    
+    <!-- Main action button -->
+    <button class="w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-3 px-4 rounded-lg transition duration-200 mb-6">
+        You can close this window
+    </button>
+    
+    <div class="border-t border-gray-700 pt-6">
+        <h2 class="text-lg font-semibold mb-4">Support ESLauncher</h2>
+        
+    </div>
 </div>
 
     @include('layouts.footer')
